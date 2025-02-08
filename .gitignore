@@ -1,0 +1,13 @@
+# Terraform-related files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraformrc
+.terraform.d
+*.plan
+
+# macOS-specific
+.DS_Store
+
+# SSH keys (for security)
+.ssh/
